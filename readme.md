@@ -11,7 +11,7 @@ Includes rules for commit messages and content.
 
 ## Contribute
 
-Do you have another good rule? 🆒 Wanna translate this project to your preferred language? Please [let us know](/issues/new) ! 👀 Merge requests are also *welcome* ♥.
+Do you have another good rule? 🆒 Wanna translate this project to your preferred language? Please [let us know](https://github.com/thiagodp/commitment/issues/new) ! 👀 Merge requests are also *welcome* ♥.
 
 ## See also
 
