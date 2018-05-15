@@ -66,7 +66,6 @@ Novidades:
     - Verifique a compilação/interpretação antes de submeter
 
 4. **Integre todos os dias**
-    - Obtenha o trabalho dos outros todos os dias, para integrar frequentemente
     - Evita acumular coisas a integrar
     - Dê `pull` em seu *branch* todos os dias, para obter atualizações de outros da equipe
     - Dê `merge` de *branches* estáveis para o *seu* (*e.g.*, `master`), para obter atualizações de outros
@@ -81,13 +80,12 @@ Novidades:
 5. **Atualize antes de submeter**
     - Dê `pull` antes de dar `push`
     - Faça `merge` com um *branch* antes de enviar um `merge request`
-        - por exemplo, se você está trabalhando em `branch-123` e mais tarde vai fazer um `merge request` para o branch `master`, você deve obter as atualizações de `master` antes de fazer o `merge request`. Isso evitará *muitas* dores de cabeça na integração.
+        - por exemplo, se você está trabalhando em `branch-123` e mais tarde vai fazer um `merge request` para o branch `master`, você deve obter as atualizações de `master` antes de fazer o `merge request`. Isso evitará dores de cabeça na integração
 
 ### Recomendações adicionais
 
 1. **Crie *branches* diferentes para tarefas e correções**
     - Auxilia a separação das atividades - veja Regras 1 e 2
-
 
 2. **Organize-se para realizar uma coisa de cada vez**
     - Cumprir regras como 1, 2, 5 e 6 requer organização. Procure planejar suas atividades antes de começar.
