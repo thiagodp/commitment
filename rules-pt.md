@@ -6,8 +6,8 @@
 
 1. **Título deve ter até 72 caracteres**
     - Facilita para ver histórico no console, ex.: `git log --oneline`
-    - Há ferramentas que cortam (truncam) a mensagem em 72 caracteres ao exibir
-    - Se puder, procure manter a meta em 50 caracteres
+    - Há ferramentas que cortam (truncam) mensagens em 72 caracteres ao exibir
+    - Se puder, mantenha em 50 caracteres
 2. **Título deve começar com letra maiúscula**
     - Padroniza e facilita pesquisa
 3. **Título deve começar com um verbo, conjugado na terceira pessoa do singular**
