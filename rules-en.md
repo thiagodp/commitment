@@ -1,8 +1,12 @@
-# English
+# Rules <!-- omit in toc -->
 
-> Simple rules for commit messages.
+- [Commit Messages](#commit-messages)
+  - [Examples without a body](#examples-without-a-body)
+  - [Examples with a body](#examples-with-a-body)
+- [Content to Commit](#content-to-commit)
+- [Additional Recommendations](#additional-recommendations)
 
-## Message rules
+## Commit Messages
 
 1. **Title must be up to 72 characters long**
    - It facilitates to see the log, *i.e.*, `git log --oneline`
@@ -48,7 +52,8 @@ What's new:
 - Fix #124 about doodad
 ```
 
-## Content rules
+
+## Content to Commit
 
 1. **Always group a set of changes or files by a *single* task**
    - Atomic commits are easier to undo
@@ -77,7 +82,7 @@ What's new:
     - Use `fetch` and `merge` (or `pull`) before `push`ing
 
 
-### Additional recommendations
+## Additional Recommendations
 
 1. **Separate branches for changes and fixes**
    - It help with rules 1 and 2

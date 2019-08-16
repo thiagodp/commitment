@@ -1,8 +1,12 @@
-# Português
+# Regras <!-- omit in toc -->
 
-> Regras simples para commits.
+- [Mensagens de Commit](#mensagens-de-commit)
+  - [Exemplos sem corpo](#exemplos-sem-corpo)
+  - [Exemplos com corpo](#exemplos-com-corpo)
+- [Conteúdo](#conte%c3%bado)
+- [Recomendações Adicionais](#recomenda%c3%a7%c3%b5es-adicionais)
 
-## Regras para mensagens
+## Mensagens de Commit
 
 1. **Título deve ter até 72 caracteres**
     - Facilita para ver histórico no console, ex.: `git log --oneline`
@@ -31,7 +35,7 @@
 - `Conclui a tarefa #123`
 - `Documenta o componente Xpto`
 - `Aceita o merge #456`
-- `Aceita o merge #456 de usuario/branch`
+- `Aceita o merge #456 de usuario/algum-branch`
 - `Atualiza a versão para 1.2.1`
 - `Corrige #123 sobre a rebimboca da parafuseta`
 
@@ -46,13 +50,13 @@ Reverte o commit c83d7a9ac83d7a9ac83d7a9ac83d7a9ac83d7a9a
 Libera versão 1.3.0
 
 Novidades:
-- Nova rosqueta da parafuseta, #125
+- Nova rosqueta da parafuseta, veja #125
 - Melhoria de desempenho na arruela da grapeta
 - Correção de #123 na rebimboca da parafuseta
 - Correção de #124 na mola da grampola
 ```
 
-## Regras para conteúdo
+## Conteúdo
 
 1. **Sempre submeta um conjunto de arquivos que participaram de uma *única* atividade**
     - Permite desfazer commits sem afetar outras atividades
@@ -77,12 +81,13 @@ Novidades:
 6. **Não integre quando estiver no meio de uma tarefa**
     - Facilita a integração
 
-5. **Atualize antes de submeter**
+7. **Atualize antes de submeter**
     - Dê `fetch` (ou `pull`) antes de dar `push`
     - Faça `merge` com um *branch* antes de enviar um `merge request`
         - por exemplo, se você está trabalhando em `branch-123` e mais tarde vai fazer um `merge request` para o branch `master`, você deve obter as atualizações de `master` antes de fazer o `merge request`. Isso evitará dores de cabeça na integração
 
-### Recomendações adicionais
+
+## Recomendações Adicionais
 
 1. **Crie *branches* diferentes para tarefas e correções**
     - Auxilia a separação das atividades - veja Regras 1 e 2
@@ -93,8 +98,14 @@ Novidades:
 3. **Submeta trabalho incompleto para branches remotos pessoais**
     - Se no fim do dia, você não conseguiu terminar uma tarefa, submeta-a para um *branch* remoto pessoal. Assim, você reduz o risco de perder seu trabalho caso seu computador local dê problema, garante que outros tenham acesso em caso de necessidade e não interfere no trabalho de ninguém.
 
-4. **Use linters antes de commitar**
-    - Eles ajudam a detectar problemas antes que você submeter seus arquivos.
+4. **Submeta trabalho incompleto para o *stash* ao integrar**
+    - Use `stash` apropriadamente, para não perder seu trabalho ou para facilitar a integração.
+
+5. **Use ferramentas para detectar problemas antes de commitar**
+   - Configure *hooks* que ocorram antes de um *commit* ou de um *push*
+   - Use *linters* para detectar problemas ou possíveis falhas.
+   - Verifique se seu código compila corretamente.
+   - Verifique se seu código passa nos testes automatizados.
 
 
 [Voltar](readme.md)

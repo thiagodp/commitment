@@ -1,16 +1,14 @@
 # commitment
-> ✨Simple rules for your commits ✨
-
-Includes rules for commit messages and content.
+> ✨Simple rules for your commit messages ✨
 
 ## Index
 
+- [English](rules-en.md)
 - [Português](rules-pt.md)
-- English (*soon*)
 
 ## Contribute
 
-Do you have another good rule? 🆒 Wanna translate this project to your preferred language? Please [let us know](https://github.com/thiagodp/commitment/issues/new) ! 👀 Merge requests are also *welcome* ♥.
+Do you have another good rule? 🆒 Wanna translate the rules to your preferred language? Please [let us know](https://github.com/thiagodp/commitment/issues/new) ! 👀 Merge requests are also *welcome* ♥.
 
 ## See also
 
