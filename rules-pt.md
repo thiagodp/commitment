@@ -67,7 +67,7 @@ Novidades:
 
 4. **Integre todos os dias**
     - Evita acumular coisas a integrar
-    - Dê `pull` em seu *branch* todos os dias, para obter atualizações de outros da equipe
+    - Dê `fetch` em seu *branch* todos os dias, para obter atualizações de outros da equipe
     - Dê `merge` de *branches* estáveis para o *seu* (*e.g.*, `master`), para obter atualizações de outros
 
 5. **Reserve um tempo diário para integração**
@@ -78,7 +78,7 @@ Novidades:
     - Facilita a integração
 
 5. **Atualize antes de submeter**
-    - Dê `pull` antes de dar `push`
+    - Dê `fetch` (ou `pull`) antes de dar `push`
     - Faça `merge` com um *branch* antes de enviar um `merge request`
         - por exemplo, se você está trabalhando em `branch-123` e mais tarde vai fazer um `merge request` para o branch `master`, você deve obter as atualizações de `master` antes de fazer o `merge request`. Isso evitará dores de cabeça na integração
 
@@ -91,7 +91,7 @@ Novidades:
     - Cumprir regras como 1, 2, 5 e 6 requer organização. Procure planejar suas atividades antes de começar.
 
 3. **Submeta trabalho incompleto para branches remotos pessoais**
-    - Se no fim do dia, você não conseguiu terminar uma tarefa, submeta-a para um *branch* remoto pessoal. Assim, você reduz o risco de perder seu trabalho caso seu computador local dê problema, garante que outros tenham acesso em caso de necessidade e não intefere no trabalho de ninguém.
+    - Se no fim do dia, você não conseguiu terminar uma tarefa, submeta-a para um *branch* remoto pessoal. Assim, você reduz o risco de perder seu trabalho caso seu computador local dê problema, garante que outros tenham acesso em caso de necessidade e não interfere no trabalho de ninguém.
 
 4. **Use linters antes de commitar**
     - Eles ajudam a detectar problemas antes que você submeter seus arquivos.
