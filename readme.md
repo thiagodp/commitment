@@ -1,7 +1,7 @@
 # commitment
 > ✨Simple rules for your commit messages ✨
 
-## Index
+## Available Languages
 
 - [English](rules-en.md)
 - [Português](rules-pt.md)
@@ -13,7 +13,7 @@ Do you have another good rule? 🆒 Wanna translate the rules to your preferred 
 ## See also
 
 - [Conventional commits](http://conventionalcommits.org/) specification
-- [commit-lint](https://github.com/marionebl/commitlint) to *lint* your commit messages
+- [commit-lint](https://github.com/conventional-changelog/commitlint) to *lint* your commit messages
 - [commitizen](https://github.com/commitizen/cz-cli) to help you with commit messages
 - [validate-commit](https://github.com/willsoto/validate-commit) to validate according to some presets
 - [husky](https://github.com/typicode/husky) to use git hooks such as `pre-commit` and `pre-push`
